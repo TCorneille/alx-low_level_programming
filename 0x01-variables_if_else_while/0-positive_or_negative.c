@@ -21,7 +21,5 @@ int main(void)
 	{
 	printf("%d negative number \n", n);
 	}
-	return(0);
+	return (0);
 }
-
-
