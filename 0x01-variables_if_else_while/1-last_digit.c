@@ -15,7 +15,7 @@ int main(void)
 				, n % 10);
 	}
 	else if ((n % 10) < 6) &&((n % 10) != 0)
-	{	{
+	{
 		printf("last digit is %d is less than 6 and not 0\n", n
 				, n % 10);
 	}
