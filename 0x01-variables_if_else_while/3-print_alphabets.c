@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*main - Data Entry
-* Return 0 succes
-*/
+/**
+ * main - Alphabets
+ *
+ * Return : 0 (success)
+ */
+
 int main(void)
 {
 	 char le;
