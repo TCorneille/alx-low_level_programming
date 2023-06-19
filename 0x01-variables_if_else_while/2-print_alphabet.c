@@ -8,13 +8,10 @@
 
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char d
 
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alphabet[i]);
-	}
+	for (d = 'a'; d <= 'z'; i++)
+		putchar(d);
 	putchar(\n);
 	return (0);
 }
