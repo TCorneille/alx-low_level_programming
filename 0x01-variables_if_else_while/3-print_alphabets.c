@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  * main - Alphabets
- *
  * Return : 0 (success)
  */
 
