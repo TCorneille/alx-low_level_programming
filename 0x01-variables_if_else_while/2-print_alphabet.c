@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - alphabets
  * Return: Always (Success)
@@ -9,10 +9,12 @@
 int main(void)
 
 {
-	char d;
+	int d;
 
 	for (d = 'a'; d <= 'z'; d++)
-	putchar(d);
+	{
+		putchar(d);
+	}
 	putchar('\n');
 	return (0);
 }

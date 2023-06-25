@@ -1,20 +1,20 @@
 #include <stdlib.h>
 #include <time.h>
-/* 
+/**
  * main - Data Entry
- * Return 0 succes
+ * Return: 0 succes
  */
 int main(void)
 {
-	 char le,e,q;
-	 e = 'e';
-	 q = 'q';
-	 for(a = 'a'; le <= 'z'; le++)
-	 {
-	 if (le != e) && (le != q)
-	 putchar(le);
-	 }
-	 putchar('\n')
+	char le, e, q;
 
- 	 return (0);
+	e = 'e';
+	q = 'q';
+	for (a = 'a'; le <= 'z'; le++)
+	{
+		if (le != e) &&(le != q)
+			putchar(le);
+	}
+	putchar('\n')
+		return (0);
 }
