@@ -18,7 +18,7 @@ int main(void)
 		if (n % 3 == 0)
 			num += n;
 		else if (n % 5 == 0)
-			total += n;
+			num += n;
 
 		n++;
 	}
