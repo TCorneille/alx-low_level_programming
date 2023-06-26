@@ -6,7 +6,7 @@
  * @b: integer2
  * Return: nothing
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int t = *a;
 	*a = *b;
