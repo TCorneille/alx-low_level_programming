@@ -3,16 +3,25 @@
  * _strcat - overwrites string
  * @dest: string to be appended
  * @src: to be appended on dest
- * @n: number from src to be appended to dest
  * Return: dest
  */
-char *_strcat(char *dest, char *src,int n)
+char *_strcat(char *dest, char *src)
 {
-	int i = 0; dest_b = 0;
+	int i;
+	int j;
 
-	while (dest[i++])
-		dest_b++;
-	for (i = 0; src[i] && i < n; i++)
-		dest[dest_b++] = src[i];
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
 	return (dest);
 }
