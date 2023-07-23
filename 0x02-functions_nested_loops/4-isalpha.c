@@ -2,15 +2,23 @@
 
 /**
  * _isalpha - Check if character is an alphabetic character.
- * @s: type int character
+ * @c: character
  * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
 
-int _isalpha(int s)
+int _isalpha(int c)
 {
-	if ((s >= 'A' && s <= 'Z') || (s >= 'a' && s <= 'z'))
-		return (1);
-	else
-		return (0);
-}
+	int l;
+	char lo, up;
 
+	for (up = 'A'; up <= 'Z'; up++)
+	{
+		for (lo = 'A'; lo <= 'z'; lo++)
+		{
+			if (l == 'c' || (l == 'C'))
+			{
+				l = 1;
+			}
+		}
+		return (l);
+}
