@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - Print "_putchar"
- * Description: including standard libraries is not allowed.
+ * main - Putchar
+ * Description:
  * Return: 0
  */
 
 int main(void)
 {
-	char myVar[] = "_putchar";
 	int a = 0;
+	char v[] = "_putchar";
 
-	while (myVar[a] != '\0')
+	while (v[a] != '\0')
 	{
-		_putchar(myVar[a]);
+		_putchar(v[a]);
 		a++;
 	}
 	_putchar('\n');
